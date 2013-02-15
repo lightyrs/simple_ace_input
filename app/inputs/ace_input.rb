@@ -2,9 +2,9 @@ class AceInput < SimpleForm::Inputs::Base
 
   def input
     ace = options.delete :ace
-    mode   = ace[:mode]   || SimpleAceInput.config.mode
-    theme  = ace[:theme]  || SimpleAceInput.config.theme
-    height = ace[:height] || SimpleAceInput.config.height
+    mode   = ace ? ace[:mode] : SimpleAceInput.config.mode
+    theme  = ace ? ace[:theme] : SimpleAceInput.config.theme
+    height = ace ? ace[:height] : SimpleAceInput.config.height
 
     input_html_options.merge!({ data: { ace_mode: mode, ace_theme: theme }, hidden: true})
     base_styles = "position: relative; height: #{height}px;"
