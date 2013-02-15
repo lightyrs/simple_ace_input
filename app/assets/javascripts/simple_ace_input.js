@@ -25,7 +25,6 @@
 //= require ace/mode-svg
 //= require ace/mode-textile
 //= require ace/mode-xml
-//= require ace/theme-carto_light
 //= require ace/theme-clouds
 //= require ace/theme-clouds_midnight
 //= require ace/theme-cobalt
