@@ -32,7 +32,7 @@
 //= require ace/theme-dawn
 //= require ace/theme-eclipse
 //= require ace/theme-idle_fingers
-//= require ace/theme-kr_theme
+//= require ace/theme-kr
 //= require ace/theme-merbivore
 //= require ace/theme-merbivore_soft
 //= require ace/theme-mono_industrial
@@ -40,6 +40,7 @@
 //= require ace/theme-pastel_on_dark
 //= require ace/theme-solarized_dark
 //= require ace/theme-solarized_light
+//= require ace/theme-textmate
 //= require ace/theme-tomorrow
 //= require ace/theme-tomorrow_night
 //= require ace/theme-tomorrow_night_blue
@@ -47,4 +48,5 @@
 //= require ace/theme-tomorrow_night_eighties
 //= require ace/theme-twilight
 //= require ace/theme-vibrant_ink
+//= require ace/theme-xcode
 //= require simple_ace_input/controller
